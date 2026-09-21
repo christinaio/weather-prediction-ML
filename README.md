@@ -45,9 +45,10 @@ Hyperparameter tuning was performed using GridSearchCV with 5-fold stratified cr
 On the unseen test set, the tuned Logistic Regression model achieved:
 
 | Metric | Baseline | Tuned |
-| F1 Score  | 0.628 | **0.656** |
-| Recall    | 0.551 | **0.795** |
-| Precision | 0.732 | 0.558     |
+|---|---:|---:|
+| F1 Score | 0.628 | **0.656** |
+| Recall | 0.551 | **0.795** |
+| Precision | 0.732 | 0.558 |
 
 The tuned model substantially improved recall, correctly identifying 847 of 1,066 rainy days. This improvement came with lower precision, illustrating the trade-off between identifying more rainy days and generating additional false-positive predictions.
 
